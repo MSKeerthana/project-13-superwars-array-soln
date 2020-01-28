@@ -26,7 +26,7 @@ const initPlayers = (players) => {
     return players.map((player, i) => {
         return {
             name: player,
-            image: "../images/super-" + (i + 1) + ".png",
+            image: "images/super-" + (i + 1) + ".png",
             strength: getRandomStrength(),
             type: (i % 2 == 0) ? "hero" : "villain"
         }
